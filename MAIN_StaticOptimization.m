@@ -5,7 +5,7 @@
 % reduces knee contact force. Sci Rep 12, 9842 (2022). 
 % https://doi.org/10.1038/s41598-022-13386-9
 
-function [] = MAIN_StaticOptimizationAPI()
+function [] = MAIN_StaticOptimization()
 % This main loop allows you to run StaticOptimizationAPI.m
 
 clear all; close all; format compact; clc; fclose all;

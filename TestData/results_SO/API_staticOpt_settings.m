@@ -1,10 +1,11 @@
 % Custom static optimization code. Author: Scott Uhlrich, Stanford
 % University, 2020. Please cite:
-% Uhlrich SD, Jackson RW, Seth A, Kolesar JA, Delp SL, 2021. 
-% Muscle coordination retraining inspired by musculoskeletal simulations: a study on reducing joint loading. 
-% bioRxiv. doi: https://doi.org/10.1101/2020.12.30.424841.
+% Uhlrich, S.D., Jackson, R.W., Seth, A., Kolesar, J.A., Delp S.L. 
+% Muscle coordination retraining  inspired by musculoskeletal simulations
+% reduces knee contact force. Sci Rep 12, 9842 (2022). 
+% https://doi.org/10.1038/s41598-022-13386-9
 
-function [] = MAIN_StaticOptimizationAPI()
+function [] = MAIN_StaticOptimization()
 % This main loop allows you to run StaticOptimizationAPI.m
 
 clear all; close all; format compact; clc; fclose all;

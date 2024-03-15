@@ -1,6 +1,6 @@
 % Written by Scott Uhlrich, Stanford University. 
 
-function [] = StaticOptimizationAPI(INPUTS) ;
+function [] = StaticOptimizationAPIVectorized(INPUTS)
 % This function performs static optimization through the OpenSim API. 
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
@@ -167,12 +167,13 @@ if appendActuators
      pController = PrescribedController() ;
      pController.setName([char(coords.get(i).getName) '_controller']) ;
      pController.addActuator(newActuator) ;
-     pController.prescribeControlForActuator(0,constFxn) ; % attach the function to the controller
+     pController.prescribeControlForActuator([char(coords.get(i).getName()) '_reserve'],constFxn) ; % attach the function to the controller
      osimModel.addController(pController) ;
      end % freeCoords
     end
 end %appendActuators
 
+osimModel.print('test.osim');
 controllerSet = osimModel.getControllerSet ;
 
 % Get Actuators
