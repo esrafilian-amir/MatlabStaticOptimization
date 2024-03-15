@@ -1,0 +1,10 @@
+[2024-03-15 14:43:47.035] [info] Loaded model Rajagopal_scaled from file D:\Git_Win\MatlabStaticOptimization\TestData\Rajagopal_scaled_Sub1_gasAvoid.osim
+[2024-03-15 14:43:50.069] [info] Storage: read data file = D:\Git_Win\MatlabStaticOptimization\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+[2024-03-15 14:43:50.247] [info] ExternalForce::GRF_r Data source being set to walking_baseline1_forces.mot
+[2024-03-15 14:43:50.309] [info] ExternalForce::GRF_l Data source being set to walking_baseline1_forces.mot
+[2024-03-15 14:43:50.548] [info] Storage: read data file = D:\Git_Win\MatlabStaticOptimization\TestData\\results_ik.sto (nr=3028 nc=26)
+[2024-03-15 14:43:51.516] [info] Storage: read data file = D:\Git_Win\MatlabStaticOptimization\TestData\\results_id.sto (nr=3028 nc=26)
+[2024-03-15 14:45:53.112] [info] Loaded model Rajagopal_scaled from file D:\Git_Win\MatlabStaticOptimization\TestData\Rajagopal_scaled_Sub1_gasAvoid.osim
+[2024-03-15 14:47:22.147] [info] Loaded model Rajagopal_scaled from file D:\Git_Win\MatlabStaticOptimization\TestData\Rajagopal_scaled_Sub1_gasAvoid.osim
+[2024-03-15 14:47:35.875] [info] Loaded model Rajagopal_scaled from file D:\Git_Win\MatlabStaticOptimization\TestData\Rajagopal_scaled_Sub1_gasAvoid.osim
+[2024-03-15 14:48:03.006] [info] Loaded model Rajagopal_scaled from file D:\Git_Win\MatlabStaticOptimization\TestData\Rajagopal_scaled_Sub1_gasAvoid.osim

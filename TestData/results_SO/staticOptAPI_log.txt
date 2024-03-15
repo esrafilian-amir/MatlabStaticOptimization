@@ -30,3 +30,7 @@ java.lang.RuntimeException: PrescribedController does not have ee in its list of
 Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MAIN_StaticOptimization', 'D:\Git_Win\MatlabStaticOptimization\MAIN_StaticOptimization.m', 110)" style="font-weight:bold">MAIN_StaticOptimization</a> (<a href="matlab: opentoline('D:\Git_Win\MatlabStaticOptimization\MAIN_StaticOptimization.m',110,0)">line 110</a>)
 StaticOptimizationAPIVectorized(INPUTS) ; % Run StaticOptimizationAPI} 
 MAIN_StaticOptimization
+
+
+Beginning Optimization for walking_baseline1 from 10.90 to 11.70 seconds. 
+
